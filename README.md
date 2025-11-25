@@ -41,7 +41,7 @@ O projeto está dividido em quatro arquivos:
 
 ### 🔗 Link de Hospedagem
 Você pode acessar a calculadora funcionando aqui:
-> [INSERIR SEU LINK DE HOSPEDAGEM AQUI]
+> https://lauralopes211.github.io/Calculadora/
 
 ### 🖥️ Execução Local
 Para rodar no seu computador, basta abrir o arquivo **`index.html`** no seu navegador.
