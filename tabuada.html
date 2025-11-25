@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabuada - Calculadora</title>
+    <link rel="stylesheet" href="tabuada.css" />
+  </head>
+  <body>
+    <div class="tabuada-container">
+      <header class="tabuada-header">
+        <button class="back-btn" onclick="window.history.back()">
+          ← Voltar
+        </button>
+        <button class="help-btn" onclick="window.open('ajuda.pdf', '_blank')">
+          ?
+        </button>
+      </header>
+
+      <h2 class="title">Visualizador de Tabuadas</h2>
+
+      <div class="search-area">
+        <input
+          type="text"
+          id="filter-input"
+          placeholder="Digite 7 ou 7x8 para filtrar..."
+          autofocus
+        />
+        <button class="search-btn" onclick="filterTabuadas()">
+          🔍 Filtrar
+        </button>
+      </div>
+
+      <div id="tabuada-results" class="tabuada-results"></div>
+    </div>
+
+    <script src="tabuada.js"></script>
+  </body>
+</html>
