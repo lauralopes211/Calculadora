@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyberspace: Adivinhe o Código Secreto</title>
+    <link rel="stylesheet" href="jogo.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+      integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        <i class="ri-gamepad-line"></i> Cyberspace Challenge
+        <i class="ri-gamepad-line"></i>
+      </h1>
+      <p>
+        Aleatório escondeu um código secreto entre <strong>1</strong> e
+        <strong>100</strong>.
+      </p>
+      <p>Adivinhe o número para desbloquear a próxima fase!</p>
+
+      <input
+        type="number"
+        id="guessInput"
+        min="1"
+        max="100"
+        placeholder="00"
+        autofocus
+      />
+      <button onclick="checkGuess()">Decifrar</button>
+      <button onclick="resetGame()">Novo Código</button>
+
+      <div class="message" id="message"></div>
+      <div class="attempts" id="attempts">Tentativas: 0</div>
+    </div>
+
+    <script src="jogo.js"></script>
+  </body>
+</html>
