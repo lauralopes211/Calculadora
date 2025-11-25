@@ -46,9 +46,11 @@ Você pode acessar a calculadora funcionando aqui:
 ### 🖥️ Execução Local
 Para rodar no seu computador, basta abrir o arquivo **`index.html`** no seu navegador.
 
+---
 ## 📜 Licença
 
 Este projeto está licenciado sob os termos da **Licença MIT** (MIT License).
+
 ---
 
 **Aluno:** Laura Lopes,João Guilherme
